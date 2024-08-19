@@ -1,68 +1,25 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/* Definir as margens, paddings e bordas padrão para zero em todos os elementos para garantir um layout consistente */
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+/* Definir uma fonte padrão para todo o documento, incluindo tamanho, família de fontes, e cor do texto */
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* Aplicar uma cor de fundo global para o corpo da página */
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+/* Ajustar a altura mínima do corpo da página para garantir que ele ocupe pelo menos 100% da altura da janela do navegador */
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+/* Estilizar os cabeçalhos (h1, h2, etc.) com tamanhos de fonte, pesos, e espaçamentos consistentes */
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+/* Estilizar os parágrafos para uma boa legibilidade, incluindo tamanho da fonte, altura da linha, e espaçamento entre parágrafos */
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+/* Definir um estilo padrão para os links, incluindo cor e comportamento ao passar o mouse */
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+/* Ajustar o estilo das listas (ul, ol) para remover ou personalizar marcadores, e aplicar espaçamento consistente */
+
+/* Adicionar uma estilização global para botões, incluindo cor de fundo, bordas, padding, e comportamento ao clicar */
+
+/* Garantir que as imagens sejam responsivas, ajustando automaticamente para o tamanho do contêiner sem distorção */
+
+/* Aplicar uma estilização básica para formulários, como campos de entrada, seletores, e botões de envio */
+
+/* Implementar estilos globais para caixas de diálogo, modais, ou elementos pop-up, incluindo alinhamento e sombreamento */
+
+/* Adicionar suporte a temas claros e escuros, incluindo variáveis de cores globais que podem ser trocadas dependendo do tema */
