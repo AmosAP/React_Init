@@ -1,11 +1,23 @@
 import './style.css'
 
+
+
 // Função principal do componente Navbar
 export default function Navbar() {
   // A função retorna o JSX que define a estrutura do componente
   return (
+    <nav className="navbar-container">
+      <div className="navbar">
+        <div className="navbar-logo">logo</div>
+        <img src='' alt=''></img>
+        <ul className="navbar-links">
+          <li><a href='#Nekumbi'>AMOS</a></li>
+          <li><a href='#Manuel'>MANUEL</a></li>
+          <li><a href='#React'>EVORA</a></li>
+        </ul>
+      </div>
+    </nav>
     // 1. Adicionar um elemento <nav> que atuará como o contêiner principal da barra de navegação.
-
     // 2. Dentro do <nav>, criar um logo ou título da aplicação. Isso pode ser feito com uma tag <img> para uma logo ou <h1>/<h2> para um texto.
 
     // 3. Adicionar um menu de navegação utilizando uma lista não ordenada <ul> com itens de lista <li>.
