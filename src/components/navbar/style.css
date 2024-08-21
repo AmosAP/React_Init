@@ -1,43 +1,42 @@
-
 .navbar-container {
-   background-color: #333;
-   padding: 15px 20px;
- }
- .navbar-links{
-   display: flex;
- }
- .navbar {
-   justify-content: space-between;
-   color: #fff;
-   display: flex;
-   text-decoration: none;
-   font-family: Arial, sans-serif;
- }
- .navbar-logo {
-   font-size: 24px;
-   font-weight: bold;
-   padding-left: 80px;
-   cursor: pointer;
- }
- .navbar-links a {
-   color: #fff;
-   text-decoration: none;
-   font-weight: bold;
-   font-size: 20px;
-   padding-right: 50px;
-   cursor: pointer;
- }
- .navbar-links a:hover {
-   background: #555;
-   border-radius: 3px;
- }
- 
- 
- 
- /* Estilo geral da navbar permanece o mesmo */
- 
+  background-color: #333;
+  padding: 15px 20px;
+}
+.navbar-links {
+  display: flex;
+}
+.navbar {
+  justify-content: space-between;
+  color: #fff;
+  display: flex;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 80px;
+  cursor: pointer;
+}
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+.navbar-links a:hover {
+  background: #555;
+  border-radius: 3px;
+}
 
- 
+.navbar-links li {
+  list-style: none;
+}
+
+/* Estilo geral da navbar permanece o mesmo */
+
 /* Definir o estilo básico para o contêiner da navbar, incluindo largura, altura, cor de fundo, e alinhamento dos itens */
 
 /* Estilizar o logo ou título da navbar, definindo tamanho do texto, cor, e removendo decorações como sublinhado. 
