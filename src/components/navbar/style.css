@@ -1,40 +1,90 @@
 .navbar-container {
-  background-color: #333;
+  background-color: #708090;
   padding: 15px 20px;
+  
 }
 .navbar-links {
   display: flex;
+  padding-top: 20px;
+  
 }
 .navbar {
   justify-content: space-between;
-  color: #fff;
+  color: #333;
   display: flex;
   text-decoration: none;
   font-family: Arial, sans-serif;
+  height: 60px;
+  
 }
-.navbar-logo {
+
+/*.navbar-logo {
   font-size: 24px;
   font-weight: bold;
   padding-left: 80px;
   cursor: pointer;
-}
+  border: #333 solid 10px;
+}*/
+
 .navbar-links a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
-  padding-right: 50px;
-  cursor: pointer;
+  padding-right: 80px;
+  cursor: pointer;  
+
+ 
 }
 .navbar-links a:hover {
-  background: #555;
+  background: #fff;
   border-radius: 3px;
+  
 }
-
 .navbar-links li {
   list-style: none;
 }
+.togle-icon{
+  width: 90px;
+  cursor: pointer;
+  height: 80px;
+  margin-top: -10px;
+  
+}
+.caixa_pesquisa{
+  display: flex;
+  background: #fff;
+  border-radius: 25px;
+  height: 60px;
 
+}
+.caixa_pesquisa input{
+  padding: 6px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+  max-width: 160px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer; 
+  
+}
+.caixa_pesquisa input::placeholder{
+  color: #333;
+ 
+  
+}
+.caixa_pesquisa img{
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+  cursor: pointer;
+  background-color: #708090;
+  
+}
 /* Estilo geral da navbar permanece o mesmo */
 
 /* Definir o estilo básico para o contêiner da navbar, incluindo largura, altura, cor de fundo, e alinhamento dos itens */
