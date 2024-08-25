@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #D9CDF7;
 }
+
 
 
 /* Definir as margens, paddings e bordas padrão para zero em todos os elementos para garantir um layout consistente */

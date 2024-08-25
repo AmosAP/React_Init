@@ -1,5 +1,6 @@
 import "./style.css";
-import logo_light from '../../assets/logo-black.png'
+
+{/*import logo_light from '../../assets/logo-black.png'
 import logo_dark from '../../assets/logo-white.png'
 import Icon_pesquisa_light from '../../assets/search-w.png'
 import Icon_pesquisa_dark from '../../assets/search-b.png'
@@ -7,15 +8,17 @@ import toogle_light from '../../assets/night.png'
 import toogle_dark from '../../assets/day.png'
 import logo_abc from '../../assets/Designer.jpeg'
 
+{/* Deixei a minha Navbar em comentarios*/}
 
-
-export default function Navbar() {
+{/*
+  
+  export default function Navbar() {
   return (
     <nav className="navbar-container">
       <div className="navbar">
       <img src={logo_light} alt="" className="Icon"/>
        {/*<div className="navbar-logo">logo</div>*/}
-        <ul className="navbar-links">
+        {/*<ul className="navbar-links">
           <li>
             <a href="#Nekumbi">NEKUMBI</a>
           </li>
@@ -35,3 +38,7 @@ export default function Navbar() {
     </nav>
   );
 }
+
+Navbar em comentarios
+        */}
+

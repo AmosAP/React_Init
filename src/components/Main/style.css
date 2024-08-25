@@ -1,0 +1,27 @@
+
+.Main-containner { 
+    margin-top: 200px;
+    align-items: center;
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.titulo h3, h1, h4{
+    display: flex;
+    padding-top: 40px;
+    
+}
+
+.titulo input{
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    width: Hug (281px)px;
+    height: Fill (498px)px;
+    gap: 20px;
+    opacity: 0px;
+
+
+}
